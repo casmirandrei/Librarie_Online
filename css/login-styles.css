@@ -1,0 +1,68 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400;1,700&display=swap');
+
+.login-form {
+     width: 400px;
+    margin: 50px auto 50px auto;
+    padding: 20px;
+    background-color: #2C3333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    color: white;
+    
+    
+  }
+  h1 {
+    text-align: center;
+  }
+
+  .login-label {
+    display: block;
+    margin-bottom: 10px;
+    
+  }
+
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .login-button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #5d685e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2;
+  }
+  .login-button:hover{
+    background-color: #d50000;
+  }
+  .navbar{
+    padding: 0;
+    margin:   auto;
+  }
+  /* Styles for the footer */
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 36.9vh; /* set minimum height of container to 100% of viewport height */
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    position: sticky;
+    margin-top: auto; /* push footer to the bottom of the container */
+  }

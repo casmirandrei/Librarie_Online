@@ -14,21 +14,25 @@ body {
  /* NAVBAR */
  .navbar{
     text-align: center;
+    padding: 1%;
+   
  }
  .container{
-    padding: 2%;
+    padding: 1%;
  }
  /* title */
  h1{
     font-family:'Montserrat, sans-serif'; font-size: 3.5rem; line-height: 1.5; font-weight: 900;
     margin: auto;
     padding: 3% 15%;
+    
  }
  /* books section */
  #books{
     text-align: center;
     background-color: #343a40;
     color: #fff;
+    border: 1px solid #ccc;
  }
  h2{
     font-family:'Montserrat, sans-serif'; font-size: 3rem; line-height: 1.5;
@@ -165,3 +169,4 @@ text-align: center;
     background-color: #343a40;
     color: #fff;
  } 
+
