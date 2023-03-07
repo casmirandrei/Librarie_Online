@@ -6,8 +6,9 @@
 
 /* BODY */
 body {
-    background-color: #fffdd0;
+ 
     font-family: "Montserrat";
+    
     
   }
   
@@ -30,9 +31,12 @@ body {
  /* books section */
  #books{
     text-align: center;
-    background-color: #343a40;
+    background-color: transparent;
     color: #fff;
-    border: 1px solid #ccc;
+    
+    width: 40%;
+    height: 50%;
+    margin: auto;
  }
  h2{
     font-family:'Montserrat, sans-serif'; font-size: 3rem; line-height: 1.5;
