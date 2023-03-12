@@ -9,7 +9,6 @@ body {
  
     font-family: "Montserrat";
     
-    
   }
   
  /* NAVBAR */
@@ -26,13 +25,14 @@ body {
     font-family:'Montserrat, sans-serif'; font-size: 3.5rem; line-height: 1.5; font-weight: 900;
     margin: auto;
     padding: 3% 15%;
+    color: white;
     
  }
  /* books section */
  #books{
     text-align: center;
     background-color: transparent;
-    color: #fff;
+    color: white;
     
     width: 40%;
     height: 50%;
@@ -41,27 +41,20 @@ body {
  h2{
     font-family:'Montserrat, sans-serif'; font-size: 3rem; line-height: 1.5;
  }
+ 
  .carousel-item{
     padding: 7% 15%;
+ }
+ .carousel-control-prev{
+    width: 100px;
+    text-align: center;
  }
  .book-image{
  
     border-radius: 70%;
     margin: 20px;
  }
- /* SUBSCRIPTION */
- /* .subscription{
-    text-align: center;
-    margin: auto;
-    padding: 3%;
-    
- }
- .p1{
-    font-size: large;
-    font-weight: bold;
- }
- 
-*/
+
 .pricing-plan{
     width: 300px;
     border-radius: 25px;
