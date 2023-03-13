@@ -131,8 +131,8 @@ text-align: center;
     font-weight: bold;
 }
 .pricing-plan__button:hover{
-    background: #fffdd0;
-    color: #22262a;
+    /* background: #fffdd0;
+    color: #22262a; */
     
 }
 .pricing-plan__cost {
